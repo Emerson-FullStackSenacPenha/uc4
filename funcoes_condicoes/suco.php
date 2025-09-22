@@ -14,7 +14,7 @@
 
 require_once "rank.php";
 
-rank('Jerms', 3);
+rank('Jerms', 4);
 
 ?>
 
