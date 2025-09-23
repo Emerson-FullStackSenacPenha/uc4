@@ -3,12 +3,11 @@
 $banda = [
 
     'vocal' => "Jerms",
-    'guitarra' => "Marcelo",
+    'guitarra' => ["Jerms", "Marcelo"],
     'baixo' => "Paiva",
     'batera' => "Léo"
 
 ];
-
 
 $guitarra = [
 
@@ -16,22 +15,7 @@ $guitarra = [
 
 ];
 
-
-
-$contador = 0;
-
-while ( $contador < count($guitarra)){
-
-    echo $guitarra[$contador]."<br><hr>";
-    $contador++;
-
-};
-
-
-for ($contador = 0; $contador < count($guitarra); $contador++){
-
-    echo "<b>".$guitarra[$contador]."</b><br><hr>";
-
-};
+echo $banda['guitarra'][1]."<br>";
+echo $guitarra[0];
 
 ?>
