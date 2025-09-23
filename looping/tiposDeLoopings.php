@@ -10,29 +10,29 @@
 //for
 for ( $contador = 0 ; $contador < 10; $contador++ ){
 
-    echo $contador;
+    echo $contador." ";
 }
 
-echo "<br><br>";
+echo "<br><hr>";
 
 //while
 $contadora = 0;
 
 while( $contadora < 10 ){
 
-    echo $contadora;
+    echo $contadora." ";
     $contadora++;
 
 }
 
-echo "<br><br>";
+echo "<br><hr>";
 
 //do while
 $contadore = 0;
 
 do{
 
-    echo $contadore;
+    echo $contadore." ";
     $contadore ++;
 
 }while( $contadore < 10 )
