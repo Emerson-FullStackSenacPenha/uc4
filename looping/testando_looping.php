@@ -1,6 +1,15 @@
 <?php
 
-$banda = [
+// Array associativo
+$bandas = [
+
+    'autoral' => "The Licios",
+    'cover' => "No escuro"
+
+];
+
+// Array multidimensional
+$theLicio = [
 
     'vocal' => "Jerms",
     'guitarra' => ["Jerms", "Marcelo"],
@@ -9,13 +18,23 @@ $banda = [
 
 ];
 
-$guitarra = [
+// Array indexado
+$integrantes = [
 
-    'Jerms', 'Marcelo'
+    'Jerms', 'Marcelo', 'Paiva', 'Léo'
 
 ];
 
-echo $banda['guitarra'][1]."<br>";
-echo $guitarra[0];
+echo $bandas['cover']."<br><hr>";
+echo $theLicio['guitarra'][1]."<br><hr>";
+echo $integrantes[3]."<br><hr>";
+
+$contador = 0;
+
+for( $contador = 0; $contador < count($integrantes); $contador++ ){
+
+    echo $integrantes[$contador]." ";
+
+}
 
 ?>
