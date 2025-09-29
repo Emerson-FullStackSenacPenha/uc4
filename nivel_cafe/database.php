@@ -2,9 +2,8 @@
 
     $ninjas = [
 
-        $ninja1 = [
+        "Jonas" => [
 
-            'nome' => "Jonas",
             'cla' => "Muce",
             'nivel' => 1,
             'missoes' => [ "Jornada", "Futebol", "Natação" ],
@@ -12,9 +11,8 @@
 
         ],
 
-        $ninja2 = [
+        "Claudia" => [
 
-            'nome' => "Claudia",
             'cla' => "Korn",
             'nivel' => 2,
             'missoes' => [ "Busca", "Natação", "Fugir" ],
@@ -22,9 +20,8 @@
 
         ],
 
-        $ninja3 = [
+        "Tulio" => [
 
-            'nome' => "Jonas",
             'cla' => "Dre",
             'nivel' => 3,
             'missoes' => [ "Perigo", "Corrida", "Escorregar" ],
@@ -33,11 +30,5 @@
         ]
 
     ];
-
-    /* Exibindo em tela
-    echo $ninjas[0]["missoes"][1]."<br>";
-    echo $ninjas[2]['filhos']."<br>";
-    echo $ninjas[2]["cla"]."<br>";
-    */
 
 ?>
